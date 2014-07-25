@@ -1,5 +1,6 @@
 .DS_store
 node_modules/
-dist/
 dev/css/
 **/.sass-cache/
+bower_components/
+dev/js/libs

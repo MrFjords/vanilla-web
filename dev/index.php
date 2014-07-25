@@ -78,6 +78,8 @@ If you want to add the social tags add the following to the html tag:
     }
   </style>
 
+  <script type="text/javascript" src="js/libs/modernizr.js"></script>
+
 </head>
 <body>
 <main class="style-guide-main">
