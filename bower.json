@@ -2,7 +2,8 @@
   "name": "vanilla",
   "version": "0.0.1",
   "dependencies": {
-    "modernizr": "latest"
+    "modernizr": "latest",
+    "bourbon": "latest"
   },
   "private": true
 }

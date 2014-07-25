@@ -54,10 +54,11 @@ module.exports = function(grunt) {
         },
         scripts: {
             options: {
-                destPrefix: 'dev/js/libs'
+                destPrefix: 'dev/'
             },
             files: {
-                'modernizr.js': 'modernizr/modernizr.js'
+                'js/libs/modernizr.js': 'modernizr/modernizr.js',
+                'scss/libs/bourbon/': 'bourbon/dist/'
             }
         }
     }

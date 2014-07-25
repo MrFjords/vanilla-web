@@ -4,3 +4,4 @@ dev/css/
 **/.sass-cache/
 bower_components/
 dev/js/libs
+dev/scss/libs
