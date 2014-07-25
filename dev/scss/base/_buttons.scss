@@ -7,7 +7,7 @@
   text-decoration: none;
   text-align: center;
   font-weight: normal;
-  text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 1px;
+  text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px;
 
   border-width: 1px;
   border-style: solid;
@@ -44,7 +44,7 @@
 
 .btn-primary {
   background-color: $primary-color;
-  border-color: darken($primary-color, 15%);
+  border-color: darken($primary-color, 20%);
   &:hover, &:focus, &:active {
     background-color: darken($primary-color, 10%);
     border-color: darken($primary-color, 25%);
@@ -53,7 +53,7 @@
 
 .btn-secondary {
   background-color: $secondary-color;
-  border-color: darken($secondary-color, 15%);
+  border-color: darken($secondary-color, 20%);
   &:hover, &:focus, &:active {
     background-color: darken($secondary-color, 10%);
     border-color: darken($secondary-color, 25%);
@@ -62,7 +62,7 @@
 
 .btn-tertiary {
   background-color: $tertiary-color;
-  border-color: darken($tertiary-color, 15%);
+  border-color: darken($tertiary-color, 20%);
   &:hover, &:focus, &:active {
     background-color: darken($tertiary-color, 10%);
     border-color: darken($tertiary-color, 25%);
@@ -78,12 +78,12 @@
 
 .btn-xl {
   font-size: 21px;
-  padding: 10px 15px;
+  padding: 10px 20px;
 }
 
 .btn-lg {
   font-size: 18px;
-  padding: 7px 15px;
+  padding: 7px 20px;
 }
 
 .btn-sm {
