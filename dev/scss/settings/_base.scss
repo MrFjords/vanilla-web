@@ -1,0 +1,21 @@
+// Color
+$primary-color:     #e74c3c !default;
+$secondary-color:   #9b59b6 !default;
+$tertiary-color:    #2ecc71 !default;
+
+$white-color:       #FFF !default; //#ecf0f1
+$black-color:       #000 !default; //#2c3e50
+
+// Typography
+$font-stack-base:   "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-size-base:    16px !default;
+$line-height-base:  1.6 !default;
+
+// Style
+$font-color-base:       $black-color !default;
+$bg-color-main:         $white-color !default;
+$border-radius:         4px;
+
+// Space
+$horizontal-space:  15px;
+$vertical-space:    15px;

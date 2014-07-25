@@ -1,0 +1,33 @@
+img, picture, video, object {
+  max-width: 100%;
+  height: auto;
+}
+
+img {
+    border: 0; 
+    -ms-interpolation-mode: bicubic;
+}
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+  *display: inline;
+  *zoom: 1;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden],
+template {
+  display: none;
+}
+
+audio, canvas, img, svg, video {
+    vertical-align: middle;
+}

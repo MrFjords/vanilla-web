@@ -1,0 +1,5 @@
+@mixin selection-style($bgColor: $bg-color-selection, $fontColor: $font-color-selection) {
+  background: $bgColor;
+  text-shadow: none;
+  color: $fontColor;
+}

@@ -1,0 +1,39 @@
+dl, menu, ol, ul {
+    margin: pxToEm(0 0 $horizontal-space);
+}
+
+ol, ul, menu {
+  padding: 0 0 0 2*$horizontal-space;
+}
+
+ol, ul { 
+  ol, ul {
+    margin-bottom: 0;
+  } 
+}
+
+ol { 
+  list-style: decimal;
+}
+
+ul { 
+  list-style: disc; 
+}
+
+dl {
+  overflow: hidden;
+  margin: 0 0 $horizontal-space;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  padding: 0 0 0 $horizontal-space;
+}
+
+nav ul, nav ol {
+    list-style: none;
+    list-style-image: none;
+}

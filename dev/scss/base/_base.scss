@@ -1,0 +1,37 @@
+*, *:before, *:after {
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+html, body { height: 100%; width: 100%; }
+
+body {
+  font-family: $font-stack-base;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  color: $font-color-base;
+  background-color: $bg-color-main; 
+}
+
+::-moz-selection { @include selection-style(); }
+
+::selection { @include selection-style(); }
+
+p, pre, figure { margin: 0 0 $horizontal-space }
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  // height: 0;
+  display: block;
+  border: 0;
+  height: 1px;
+  border-top: 1px solid $black-color;
+  margin: 2*$horizontal-space 0;
+}

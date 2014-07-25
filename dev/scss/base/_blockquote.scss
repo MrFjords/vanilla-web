@@ -1,0 +1,6 @@
+blockquote {
+  padding-left: $vertical-space * 2;
+  margin-bottom: $horizontal-space;
+  font-style: italic;
+  color: lighten($font-color-base, 10%);
+}

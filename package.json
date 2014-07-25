@@ -1,0 +1,17 @@
+{
+  "name": "vanilla",
+  "appName": "Vanilla",
+  "version": "0.1.0",
+  "author": "David Brown",
+  "twitter": "@MrFjords",
+  "path": "http://localhost:8888/vanilla/",
+  "dev": "dev",
+  "dist": "dist",
+  "devDependencies": {
+    "grunt": "latest",
+    "matchdep": "*",
+    "grunt-contrib-sass": "^0.7.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-open": "^0.2.3"
+  }
+}
