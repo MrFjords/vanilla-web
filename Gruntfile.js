@@ -12,13 +12,13 @@ module.exports = function(grunt) {
           style: 'nested'
         },
         files: {                         
-          '<%= pkg.dev %>/css/style.css' : '<%= pkg.dev %>/scss/style.scss'
+          '<%= pkg.directories.dev %>/css/style.css' : '<%= pkg.directories.dev %>/scss/style.scss'
         }
       }
     },
     watch: {
       css: {
-        files: ['<%= pkg.dev %>/scss/**/*.scss'],
+        files: ['<%= pkg.directories.dev %>/scss/**/*.scss'],
         tasks: ['css']
         
       },
@@ -28,11 +28,11 @@ module.exports = function(grunt) {
     },
     open: {
       dev: {
-        path: '<%= pkg.path %>/<%= pkg.dev %>/',
+        path: '<%= pkg.directories.path %>/<%= pkg.directories.dev %>/',
         app: 'Google Chrome'
       },
       dist: {
-        path: '<%= pkg.path %>/<%= pkg.dist %>/',
+        path: '<%= pkg.directories.path %>/<%= pkg.directories.dist %>/',
         app: 'Google Chrome'
       }
     }

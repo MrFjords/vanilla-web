@@ -2,11 +2,20 @@
   "name": "vanilla",
   "appName": "Vanilla",
   "version": "0.1.0",
-  "author": "David Brown",
-  "twitter": "@MrFjords",
-  "path": "http://localhost:8888/vanilla/",
-  "dev": "dev",
-  "dist": "dist",
+  "description": "Starting point for any websites I build",
+  "author": {
+    "name": "David Brown",
+    "twitter": "@MrFjords"
+  },
+  "directories": {
+    "path": "http://localhost:8888/vanilla/",
+    "dev": "dev",
+    "dist": "dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MrFjords/vanilla-web.git"
+  },
   "devDependencies": {
     "grunt": "latest",
     "matchdep": "*",
