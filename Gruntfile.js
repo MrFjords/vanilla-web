@@ -28,7 +28,11 @@ module.exports = function(grunt) {
     },
     open: {
       dev: {
-        path: '<%= pkg.path %>',
+        path: '<%= pkg.path %>/<%= pkg.dev %>/',
+        app: 'Google Chrome'
+      },
+      dist: {
+        path: '<%= pkg.path %>/<%= pkg.dist %>/',
         app: 'Google Chrome'
       }
     }
