@@ -239,6 +239,13 @@ p q r s t u v w x y z { | } ~
 
 <p><a href="#" class="btn btn-primary btn-xs">XS Button</a></p>
 
+<div>
+  <img src="http://static.comicvine.com/uploads/scale_small/3/35127/1993979-americanv.jpg" class="img-rounded" alt="" style="width: 30%; margin: 15px 1%;">
+  <img src="http://static.comicvine.com/uploads/scale_small/3/35127/1993979-americanv.jpg" class="img-circle" alt="" style="width: 30%; margin: 15px 1%;">
+  <img src="http://static.comicvine.com/uploads/scale_small/3/35127/1993979-americanv.jpg" class="img-framed" alt="" style="width: 30%; margin: 15px 1%;">
+
+</div>
+
 </main>
 
 <script src="//localhost:35729/livereload.js"></script>

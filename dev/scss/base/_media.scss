@@ -1,11 +1,8 @@
 img, picture, video, object {
   max-width: 100%;
   height: auto;
-}
-
-img {
-    border: 0; 
-    -ms-interpolation-mode: bicubic;
+  border: 0; 
+  -ms-interpolation-mode: bicubic;
 }
 
 audio,
@@ -30,4 +27,20 @@ template {
 
 audio, canvas, img, svg, video {
     vertical-align: middle;
+}
+
+
+/** To Do: Should maybe break this out */
+.img-rounded {
+  border-radius: 5px;
+}
+
+.img-circle {
+  border-radius: 50%;
+} 
+
+.img-framed {
+  padding: 4px;
+  background-color: #fff;
+  border: 1px solid #ddd;
 }
