@@ -1,0 +1,74 @@
+.panel {
+  margin: 0 0 $horizontal-space;
+  background-color: $white-color;
+  border-radius: $border-radius;
+  border: 1px solid lighten($black-color, 75%);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.panel-heading, .panel-body, .panel-footer {
+  & > *:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+}
+
+.panel-heading, .panel-footer {
+  padding: $horizontal-space/2 $vertical-space;
+  background-color: darken($white-color, 5%);
+  text-shadow: rgba(0, 0, 0, 0.25) 1px 1px 1px;
+}
+
+.panel-heading {
+  border-bottom: 1px solid lighten($black-color, 75%);
+  border-top-left-radius: $border-radius;
+  border-top-right-radius: $border-radius;
+}
+
+.panel-body {
+  padding: $horizontal-space $vertical-space;
+  font-size: 85%;
+}
+
+.panel-footer {
+  border-top: 1px solid lighten($black-color, 75%);;
+  border-bottom-right-radius: $border-radius;
+  border-bottom-left-radius: $border-radius;
+}
+
+.panel-primary {
+  border: 1px solid lighten($primary-color, 25%);
+  & > .panel-heading, & > .panel-footer {
+    background-color: lighten($primary-color, 40%);
+    border-color: lighten($primary-color, 25%);
+    * {
+      color: darken($primary-color, 15%);
+      color: $primary-color;
+    }
+  }
+}
+
+.panel-secondary {
+  border: 1px solid lighten($secondary-color, 25%);
+  & > .panel-heading, & > .panel-footer {
+    background-color: lighten($secondary-color, 40%);
+    border-color: lighten($secondary-color, 25%);
+    * {
+      color: darken($secondary-color, 15%);
+      color: $secondary-color;
+    }
+  }
+}
+
+.panel-tertiary {
+  border: 1px solid lighten($tertiary-color, 25%);
+  & > .panel-heading, & > .panel-footer {
+    background-color: lighten($tertiary-color, 40%);
+    border-color: lighten($tertiary-color, 25%);
+    * {
+      color: darken($tertiary-color, 15%);
+      color: $tertiary-color;
+    }
+  }
+}

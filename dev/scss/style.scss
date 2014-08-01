@@ -23,4 +23,13 @@
 @import "base/media";
 @import "base/tables";
 
+@import "base/layout";
+
 @import "base/buttons"; // Maybe needs to be moved
+
+@import "elements/images";
+@import "elements/lists";
+
+@import "modules/wells";
+@import "modules/panels";
+@import "modules/breadcrumbs";

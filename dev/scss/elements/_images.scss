@@ -1,13 +1,14 @@
 .img-rounded {
-  border-radius: 5px;
+  border-radius: $border-radius;
 }
 
 .img-circle {
   border-radius: 50%;
 } 
 
+/** To Do: add box shadow */
 .img-framed {
   padding: 4px;
-  background-color: #fff;
-  border: 1px solid #ddd;
+  background-color: $white-color;
+  border: 1px solid lighten($black-color, 75%);
 }

@@ -22,8 +22,19 @@
     text-transform: lowercase;
 }
 
+.capitalize {
+    text-transform: capitalize;
+}
+
 .truncate {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.lead {
+  font-size: 125%;
+  font-weight: 300;
+  line-height: 1.2;
+  color: lighten($font-color-base, 15%);
 }

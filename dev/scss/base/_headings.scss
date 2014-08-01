@@ -25,4 +25,13 @@ h6, .h6 {
 
 %common-heading-styles {
   margin-bottom: $horizontal-space;
+  & > a, & > a:hover, & > a:active {
+    color: inherit;
+  }
+  & > a {
+    text-decoration: none;
+  }
+  & > a:hover, & > a:active {
+    text-decoration: underline;
+  }
 }

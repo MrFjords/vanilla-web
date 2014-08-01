@@ -3,4 +3,8 @@ blockquote {
   margin-bottom: $horizontal-space;
   font-style: italic;
   color: lighten($font-color-base, 10%);
+  footer {
+    font-size: 80%;
+    color: lighten($font-color-base, 15%);
+  }
 }

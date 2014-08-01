@@ -1,0 +1,19 @@
+$breadcrumb-divider: ">\00a0";
+
+.breadcrumb {
+  padding: $horizontal-space $vertical-space/2;
+  & > li {
+    display: inline-block;
+    & + li:before {
+      padding: 0 $vertical-space/2;
+      color: $font-color-base;
+      content: $breadcrumb-divider;
+    }
+    a {
+      text-decoration: none;
+      &:hover, &:active {
+        text-decoration: underline;
+      }
+    }
+  }
+}

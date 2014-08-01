@@ -70,23 +70,23 @@ If you want to add the social tags add the following to the html tag:
   <link href="css/reset.css" rel="stylesheet" type='text/css' media='all'>
   <link href="css/style.css" rel="stylesheet" type='text/css' media='all'>
 
-  <style type="text/css">
+  <!-- <style type="text/css">
     .style-guide-main {
       max-width: 960px;
       margin: 15px auto;
       padding: 0 15px;
     }
-  </style>
+  </style> -->
 
   <script type="text/javascript" src="js/libs/modernizr.js"></script>
 
 </head>
 <body>
-<main class="style-guide-main">
+<main class="style-guide-main container">
   <h1>Heading Size 1</h1>
   <h2>Heading Size 2</h2>
   <h3>Heading Size 3</h3>
-  <h4>Heading Size 4</h4>
+  <h4>Heading <a href="#">Size</a> 4</h4>
   <h5>Heading Size 5</h5>
   <h6>Heading Size 6</h6>
   <p>A paragraph (from the Greek paragraphos, "to write beside" or "written beside") is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.</p>
@@ -114,10 +114,14 @@ If you want to add the social tags add the following to the html tag:
     <p>The <var>variarble element</var>, such as <var>x</var> = <var>y</var></p>
   </div>
 
+  <p class="lead">A paragraph (from the Greek paragraphos, "to write beside" or "written beside") is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.</p>
+
   <blockquote>
     <p>A block quotation (also known as a long quotation or extract) is a quotation in a written document, that is set off from the main text as a paragraph, or block of text, and typically distinguished visually using indentation and a different typeface or smaller size quotation.</p>
     <cite class="citation">Quote Source</cite>
   </blockquote>
+
+
 
   <ul>
     <li>This is a list item in an unordered list</li>
@@ -144,6 +148,13 @@ If you want to add the social tags add the following to the html tag:
     </li>
     <li>This is the last list item</li>
   </ol>
+
+  <ol class="breadcrumb">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Library</a></li>
+    <li class="active">Data</li>
+  </ol>
+
 
   <dl>
     <dt>Definition List</dt>
@@ -245,6 +256,58 @@ p q r s t u v w x y z { | } ~
   <img src="http://static.comicvine.com/uploads/scale_small/3/35127/1993979-americanv.jpg" class="img-framed" alt="" style="width: 30%; margin: 15px 1%;">
 
 </div>
+
+<div class="panel">
+  <div class="panel-heading">
+    <h3>Panel Heading</h3>
+  </div>
+  <div class="panel-body">
+    <p>A paragraph (from the Greek paragraphos, "to write beside" or "written beside") is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.</p>
+  </div>
+  <div class="panel-footer">
+    <p>Panel Footer</p>
+  </div>
+</div>
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3>Panel Heading</h3>
+  </div>
+  <div class="panel-body">
+    <p>A paragraph (from the Greek paragraphos, "to write beside" or "written beside") is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.</p>
+  </div>
+  <div class="panel-footer">
+    <p>Panel Footer</p>
+  </div>
+</div>
+
+<div class="panel panel-secondary">
+  <div class="panel-heading">
+    <h3>Panel Heading</h3>
+  </div>
+  <div class="panel-body">
+    <p>A paragraph (from the Greek paragraphos, "to write beside" or "written beside") is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.</p>
+  </div>
+  <div class="panel-footer">
+    <p>Panel Footer</p>
+  </div>
+</div>
+
+<div class="panel panel-tertiary">
+  <div class="panel-heading">
+    <h3>Panel Heading</h3>
+  </div>
+  <div class="panel-body">
+    <p>A paragraph (from the Greek paragraphos, "to write beside" or "written beside") is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.</p>
+  </div>
+  <div class="panel-footer">
+    <p>Panel Footer</p>
+  </div>
+</div>
+
+<div class="well">
+    <p>A paragraph (from the Greek paragraphos, "to write beside" or "written beside") is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.</p>
+  </div>
 
 </main>
 
